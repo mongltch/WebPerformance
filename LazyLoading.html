@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Loading</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+            <li><a href="index.html">Home!</li></a>
+            <li><a href="CDN.html">CDN</li></a>
+            <li><a href="BrowserCache.html">Browser Cache</li></a>
+            <li><a href="Compression.html">Compression</li></a>
+            <li><a href="MinifyCode.html">Minify Code</li></a>
+            <li><a href="LazyLoading.html">Lazy Loading</li></a>
+            </ul>
+        </nav>
+        <h1 class="titles">Lazy Loading</h1>
+</header>
+<main>
+    <img src="images/lazy.jpg" alt="loading" height="350px" class="images">
+    <h3 class="subheadings">What is Lazy Loading?</h3>
+    <p class="paragraphs">Lazy Loading is a technique to improve website loading rates by only rendering your webpage content when the browser and user need it. Instead of immediately loading your whole entire website, it will wait until the user interacts with that certain part of the webpage which will then trigger the website to load the necessary resources. This is very efficient if you want to improve website performance especially if you have a large number  of assets on your website. If the web browser just loads them all at the same time it causes the web page to load extremely slowly which will negitively impact user experience. </p>
+    <h3 class="subheadings">How does it work?</h3>
+    <p class="paragraphs">Unless a user scrolls or interacts with a certain part of your website, the web browser will not load it. In web layout terms the "above the fold" section is the part of the web page that the user sees and need to be loaded immediately while the "below the fold" section is the section that users does not see and only needs to be loaded when they scroll down or press on it. Lazy loading works by shortening the critical rendering path (how the browser will convert your web code into pixels on the screen by following certain steps) by loading critical assets first and lazy loading the rest. By using Lazy Loading you will not only have quicker website loading times you also allow for bandwidth conservation as the content is only being delivered when it is requested. Another benefit is that the content that was requested and rendered is not being wasted when a visitor leaves before even scrolling down which saves processing power and bandwidth on the web host server.</p>   
+    <h3 class="subheadings">How can I use Lazy Loading?</h3>
+    <p class="paragraphs">A simple way to use Lazy loading is simply by adding the HTML loading attribute to an image element. By adding "loading="lazy" to an image tag you are telling the web browser to load that image only when the end users have scrolled down to it. You are also able to split a CSS file into various different files that only load when needed and can place loading attributes into your iframe tags (embeding content from other sources into a webpage) so that they only load when a user presses on them. There are also other frameworks within certain programming lanuages that can be used to implement more specific types of Lazy loading methods.</p>
+</main>
+<footer>
+    <h5>More(references)</h5>
+    <p>For more information visit these websites!</p>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading">MDN web docs</a>
+    <a href="https://www.cloudflare.com/en-gb/learning/performance/what-is-lazy-loading/">cloudfare</a> <a href="https://www.imperva.com/learn/performance/lazy-loading/">imperva</a>
+</footer>
+</body>
+</html>

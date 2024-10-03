@@ -1,0 +1,136 @@
+@font-face{
+    font-family: RobotoMono;
+    src: url(fonts/RobotoMono-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: SpaceGrotesk;
+    src: url(fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: Poppins-Bold;
+    src: url(fonts/Poppins-Bold.ttf);
+}
+@font-face{
+    font-family: Poppins-SemiBold;
+    src: url(fonts/Poppins-SemiBold.ttf);
+}
+@font-face{
+    font-family: Regular;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+@font-face{
+    font-family: Medium;
+    src: url(fonts/Poppins-Medium.ttf);
+}
+body{
+    background-color: rgb(238, 227, 229);
+    margin: 0px;
+}
+main{
+    margin: 10px;
+}
+#MainTitle{
+    text-align: center;
+    font-family: SpaceGrotesk;
+    font-size: 45px; 
+    letter-spacing: 1px;
+    
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(200, 181, 192);
+    padding: 0px;
+    margin: 0px;
+    margin-top: -4px;
+    overflow: hidden;
+    border: 2px solid;
+
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    height: 15px;
+    position: relative;
+}
+.navbar a:hover{
+    background-color: rgb(183, 60, 126);
+    
+}
+
+.navbar li{
+    float: left;
+    font-weight: bold;
+    font-family: RobotoMono;
+    font-size: small;
+    
+}
+#firedimg{
+    float: right;
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: rgb(147, 73, 109);
+}
+#Home{
+font-family: SpaceGrotesk;
+font-weight: bolder;
+color: rgb(82, 52, 73);
+font-size: larger;
+}
+h4{
+    font-weight: normal;
+}
+.titles{
+font-family: Poppins-Bold;
+letter-spacing: 1px;
+}
+.subheadings{
+    font-family: Poppins-SemiBold;
+}
+.paragraphs{
+    font-family: Regular;
+}
+.box{
+    
+}
+.pcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-between;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+#box1{
+    background-color: rgb(192, 177, 190);
+    padding: 1%;
+}
+#box2{
+    background-color: rgb(128, 225, 130);
+    padding: 1%;
+}
+#box3{
+    background-color: rgb(192, 177, 190);
+    padding: 1%;
+}
+#box4{
+    background-color: rgb(128, 225, 130);
+    padding: 1%;
+}
+#codeimg2{
+    float: left;
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: rgb(147, 73, 109);
+}
+footer{
+    background-color: rgb(196, 175, 194);
+    font-family: Medium;
+}
+.images{
+    float: right;
+    border: 2px solid;
+    border-radius: 7px;
+}
